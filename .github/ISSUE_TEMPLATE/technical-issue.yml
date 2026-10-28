@@ -1,0 +1,54 @@
+name: Technical issue / 技術問題
+description: iPad, iPhone, macOS, Windows, or website support. English / 繁體中文 / 简体中文 / 日本語.
+title: "[Support] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Reports are public. Do not upload private videos, recordings, scripts, account details, receipts, or complete logs.
+        回報會公開。請勿上載私人影片、錄音、文字稿、帳戶資料、收據或完整記錄。
+        反馈为公开内容。请勿上传私人视频、录音、文字稿、账号信息、收据或完整日志。
+        投稿は公開されます。私的な動画・録音・台本・アカウント情報・領収書・完全なログは添付しないでください。
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform / 平台
+      options:
+        - iPad
+        - iPhone
+        - macOS
+        - Windows
+        - Website
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version and build / 應用程式版本
+      description: For website issues, enter the page address instead.
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device, operating system, and browser / 裝置、系統及瀏覽器
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 重現步驟
+      description: You can answer in English, 繁體中文, 简体中文, or 日本語.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Expected and actual result / 預期及實際結果
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Error text, selected models, or a short edited log / 錯誤文字、所選模型或簡短記錄
+      description: Remove personal information. Attachments are optional.

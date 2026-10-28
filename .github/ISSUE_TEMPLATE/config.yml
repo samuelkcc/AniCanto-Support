@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Support / 技術支援 / 技术支持 / サポート
+    url: http://anicanto.com/support.html
+    about: Read the four-language support guide before reporting a problem.
+  - name: Privacy policy / 私隱政策 / 隐私政策 / プライバシーポリシー
+    url: http://anicanto.com/privacy.html
+    about: Read the existing iPad privacy policy.

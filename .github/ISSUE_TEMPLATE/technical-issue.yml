@@ -1,5 +1,5 @@
 name: Technical issue / 技術問題
-description: iPad, iPhone, macOS, Windows, or website support. English / 繁體中文 / 简体中文 / 日本語.
+description: iPad and iPhone support. English / 繁體中文 / 简体中文 / 日本語.
 title: "[Support] "
 body:
   - type: markdown
@@ -16,16 +16,12 @@ body:
       options:
         - iPad
         - iPhone
-        - macOS
-        - Windows
-        - Website
     validations:
       required: true
   - type: input
     id: version
     attributes:
       label: App version and build / 應用程式版本
-      description: For website issues, enter the page address instead.
     validations:
       required: true
   - type: input

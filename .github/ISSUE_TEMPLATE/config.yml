@@ -1,8 +1,11 @@
 blank_issues_enabled: true
 contact_links:
+  - name: Download AniCanto / 下載 / 下载 / ダウンロード
+    url: https://apps.apple.com/us/app/anicanto/id6828568012
+    about: AniCanto is available on the App Store for iPhone and iPad.
   - name: Support / 技術支援 / 技术支持 / サポート
-    url: http://anicanto.com/support.html
+    url: https://anicanto.com/support.html
     about: Read the four-language support guide before reporting a problem.
   - name: Privacy policy / 私隱政策 / 隐私政策 / プライバシーポリシー
-    url: http://anicanto.com/privacy.html
-    about: Read the existing iPad privacy policy.
+    url: https://anicanto.com/privacy.html
+    about: Read the iPhone and iPad App privacy policy.
